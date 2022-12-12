@@ -9,7 +9,7 @@ import random
 
 #import dataframe_image as dfi
 
-def getJSON_OBS(filePath):    
+def getJSON_OBS(filePath):  
     with open(filePath, encoding='utf-8-sig') as fp:
         return json.load(fp)
 
@@ -404,9 +404,9 @@ def avgProg(obj, teamDict, team, season, names = []):
     return progs_df.reset_index(drop=True)
 
     
-season = 2110     
-team = "Dallas"  
-fileName = 'BBGM_BGMDL_2110_draft.json'
+season = 2113     
+team = "Draft"  
+fileName = 'BBGM_BGMDL_2113_draft.json'
 obj = getJSON_OBS(fileName)
 teamDict = getTIDs(obj) 
 

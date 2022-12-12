@@ -292,11 +292,11 @@ def checkPostProgRig(pre, post,teamDict):
     
                     
                     
-prog = '2055 NCBCA Returning Talent Export.json'
+prog = '2067 S4 Boxscores.json'
 obj1 = getJSON(prog)                   
            
 
-test = 'purdue.json'
+test = '2067 S6.json'
 obj2 = getJSON(test)
 
 teamDict = getTIDs(obj1)
